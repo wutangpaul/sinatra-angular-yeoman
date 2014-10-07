@@ -1,0 +1,27 @@
+// bower:scss
+// endbower
+@import "yui_pure";
+@import "variables";
+
+html {
+  overflow-y: scroll;
+}
+
+html, body {
+  background: $primary-background-color;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+
+.container-main {
+  max-width: $site-max-width;
+  margin: auto;
+}
+
+.helper {
+  background: #f09;
+}

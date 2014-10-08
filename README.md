@@ -16,6 +16,8 @@ This is basically a Yeoman generated AngularJS app, riding on a Sinatra, with so
 
 ## Quick start
 
+Clone the repository
+
 Install node dependencies
 
     npm install

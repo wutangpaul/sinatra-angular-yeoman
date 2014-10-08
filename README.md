@@ -39,5 +39,5 @@ Install Ruby gems
 ###### Development Mode
     grunt serve
 
-###### Production Mode
+###### Production Mode with fully built front end
     grunt serve:dist

@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name sinatraSteroidsApps
+ * @name apps
  * @description
- * # sinatraSteroidsApp
+ * # app
  *
  * Main module of the application.
  */
 angular
-  .module('sinatraSteroidsApp', [
+  .module('app', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

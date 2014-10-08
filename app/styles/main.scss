@@ -1,6 +1,7 @@
 // bower:scss
 // endbower
-@import "yui_pure";
+
+@import "mixins";
 @import "variables";
 
 html {
@@ -9,6 +10,7 @@ html {
 
 html, body {
   background: $primary-background-color;
+  color: $primary-font-color;
 }
 
 * {

@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name sinatraSteroidsApp.controller:MainCtrl
+ * @name app.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the sinatraSteroidsApp
+ * Controller of the app
  */
-angular.module('sinatraSteroidsApp')
+angular.module('app')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

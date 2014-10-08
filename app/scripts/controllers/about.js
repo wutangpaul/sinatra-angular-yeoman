@@ -2,16 +2,29 @@
 
 /**
  * @ngdoc function
- * @name sinatraSteroidsApp.controller:AboutCtrl
+ * @name app.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the sinatraSteroidsApp
+ * Controller of the app
  */
-angular.module('sinatraSteroidsApp')
+angular.module('app')
   .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karmad'
-    ];
+    $scope.features = {
+      included: [
+        'AngularJS',
+        'Grunt',
+        'Bower',
+        'Live Reloading (with no shitty browser extensions)',
+        'Karma test framework',
+        'Ruby Gems',
+        'Sass',
+        'Sinatra via Grunt Connect proxy (sweeeeet)',
+        'FontAwesome Icons'
+      ],
+      notIncluded: [
+        'A CSS framework - plug your own in or get SASSy',
+        'CSS reset - normalize? Yeah, normalize.',
+        'jQuery - where were\'re going, we don\'t need jQuery'    
+      ]
+    };
   });

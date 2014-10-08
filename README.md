@@ -1,6 +1,6 @@
 ## What's in the box?
 
-This is basically a Yeoman generated AngularJS app, riding on a Sinatra, with some additional goodies thrown in. I use it as a starter template for new projects. No Bootstrap, no jQuery, no resets. Plug your own in. 
+This is basically a Yeoman generated AngularJS app, riding on Sinatra, configured with some additional goodies thrown in. I use it as a starter template for new projects. No Bootstrap, no jQuery, no resets. Plug your own in. 
 
 * AngularJS with modular skeleton layout
 * Yeoman

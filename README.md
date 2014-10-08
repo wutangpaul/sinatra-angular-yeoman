@@ -14,6 +14,10 @@ This is basically a Yeoman generated AngularJS app, riding on Sinatra, configure
 * FontAwesome Icons
 
 
+## Requirements
+
+NodeJS, Ruby, not crying at the thought of typing a couple of simple commands
+
 ## Quick start
 
 Clone the repository
